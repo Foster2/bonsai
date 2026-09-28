@@ -1,0 +1,10 @@
+# Environment (contains local overrides / secrets)
+.env
+
+# Model weights (large GGUF files)
+models/*
+!models/.gitkeep
+
+# Python (proxy)
+__pycache__/
+*.pyc
